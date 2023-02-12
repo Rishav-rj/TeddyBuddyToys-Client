@@ -159,7 +159,7 @@ const Container = styled.div`
     text-decoration: underline white;
   }
   @media (max-width: 500px) {
-    height: 100vh;
+    height: 58vh;
     h1 {
       margin-top:10px;
       font-size: 20px;
@@ -173,6 +173,7 @@ const Form = styled.form`
   margin: 20px;
   @media (max-width: 500px) {
     width: 85vw;
+    margin-bottom: 0px;
   }
   input {
     padding: 5px 5px;
@@ -286,6 +287,9 @@ const ToysList = styled.div`
   padding-top: 30px;
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
+  @media (max-width: 768px){
+    padding-bottom:20px;
+  }
   .items {
     margin: 20px;
     border: 2px solid rgba(87, 101, 116, 0.2);
